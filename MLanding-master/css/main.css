@@ -1,0 +1,428 @@
+.jumbotron {
+            background-image: url('http://cdn.pcwallart.com/images/abstract-light-white-wallpaper-4.jpg');
+            background-size: cover;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+#email {
+        width: 400px;
+        }
+
+ #appSummary {
+            text-align: justify;
+            margin-top: 50px;
+            margin-bottom:50px;
+      }
+
+ .card-img-top {
+      width: 100%;
+      height: 250px;
+      background-image: url('http://cdn.pcwallart.com/images/abstract-light-white-wallpaper-4.jpg');
+ }
+ .flex {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .app-btn {
+   width:45%;
+   max-width:160px;
+   color: #fff;
+   margin: 20px 10px;
+   text-align:left;
+   border-radius: 5px;
+   text-decoration:none;
+   font-family: 'Lucida Grande', sans-serif;
+   font-size: 10px;
+   text-transform:uppercase;
+ }
+
+ .app-btn.blu {
+   background-color: #0055A3;
+   transition: background-color .250s linear;
+ }
+
+ .app-btn.blu:hover {
+   background-color: #02396C;
+ }
+
+ .app-btn i {
+   width:20%;
+   text-align:center;
+   font-size: 28px;
+   margin-right:7px;
+ }
+
+ .app-btn .big-txt {
+   font-size: 17px;
+   text-transform: capitalize;
+ }
+
+
+ .subtitle {
+   line-height: 0.5;
+   text-align: center;
+   width: 50%;
+   margin: 2rem auto;
+ }
+
+ .subtitle span {
+   display: inline-block;
+   position: relative;
+ }
+ .subtitle span:before,
+ .subtitle span:after {
+   content: "";
+   position: absolute;
+   height: 5px;
+   border-bottom: 1px solid black;
+   border-top: 1px solid black;
+   top: 20%;
+   width: 10rem;
+ }
+ .subtitle span:before {
+   right: 100%;
+   margin-right: 15px;
+ }
+ .subtitle span:after {
+   left: 100%;
+   margin-left: 15px;
+ }
+
+ /*==================================================================================================
+                                        GALLERY CSS
+================================================================================================== */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ccc;
+}
+
+img {
+  width: 700px;
+  height: 445px;
+  transition: .3s ease-in-out;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8 {
+  width: 700px;
+  height: 445px;
+    -webkit-box-shadow: 0px 1px 1px;
+  float: left;
+  background: url(http://www.ilhamrock.com/wp-content/uploads/2014/10/cropped-I-copy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+#slideshow-container {
+  width: 700px;
+  height: 445px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 0px 10px 10px #333;
+  border-radius: 10px;
+}
+
+#slideshow {
+  width: 1000%;
+  -webkit-animation: slideshow 20s infinite;
+  -moz-animation: slideshow 20s infinite;
+  -o-animation: slideshow 20s infinite;
+  -ms-animation: slideshow 20s infinite;
+
+}
+
+/* Animation
+=============================*/
+
+@-webkit-keyframes slideshow {
+  0%, 10%, 100% {margin-left: 0; }
+  20%, 30% {margin-left: -700px; }
+  40%, 50% {margin-left: -1400px;}
+  60%, 70% {margin-left: -2100px;}
+  80% {margin-left: 0;}
+}
+
+@-moz-keyframes slideshow {
+  0%, 10%, 100% {margin-left: 0; }
+  20%, 30% {margin-left: -700px; }
+  40%, 50% {margin-left: -1400px;}
+  60%, 70% {margin-left: -2100px;}
+  80% {margin-left: 0;}
+}
+
+@-o-keyframes slideshow {
+  0%, 10%, 100% {margin-left: 0; }
+  20%, 30% {margin-left: -700px; }
+  40%, 50% {margin-left: -1400px;}
+  60%, 70% {margin-left: -2100px;}
+  80% {margin-left: 0;}
+}
+
+@-ms-keyframes slideshow {
+  0%, 10%, 100% {margin-left: 0; }
+  20%, 30% {margin-left: -700px; }
+  40%, 50% {margin-left: -1400px;}
+  60%, 70% {margin-left: -2100px;}
+  80% {margin-left: 0;}
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+ /*==================================================================================================
+                                       end of  GALLERY CSS
+================================================================================================== */
+
+
+
+
+
+
+
+
+
+ /*==================================================================================================
+                                        Survey Button
+================================================================================================== */
+ .button {
+   display: inline-block;
+   border-radius: 4px;
+   background-color: #2e71d1;
+   border: none;
+   color: #FFFFFF;
+   text-align: center;
+   font-size: 28px;
+   padding: 20px;
+   width: 500px;
+   transition: all 0.5s;
+   cursor: pointer;
+   margin: 5px;
+ }
+
+ .button span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+ }
+
+ .button span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+ }
+
+ .button:hover span {
+   padding-right: 25px;
+ }
+
+ .button:hover span:after {
+   opacity: 1;
+   right: 0;
+ }
+ /*==================================================================================================
+                                          end of Survey Button
+================================================================================================== */
+
+body {
+     position:relative;
+}
+
+.card-block {
+  text-align: center;
+}
+
+
+
+
+ /*==================================================================================================
+                                        FOOTER
+================================================================================================== */
+
+.socialbar {
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+}
+.socialbar h3{
+  color: white;
+  font-size: 30px
+}
+
+.frame {
+  height: 450px;
+  width: 250px;
+  border: 5px solid #aaa6a6;
+  border-radius: 20px;
+  margin: auto;
+  background: #d2e1e6;
+  margin-top: 25px;
+  box-shadow: 5px 5px 10px #393939;
+  cursor: move;
+}
+
+.speaker {
+  height: 3px;
+  width: 50px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
+  border-radius: 10px;
+  background: rgb(69,72,77);
+  background: -webkit-linear-gradient(bottom left, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+  background: -moz-linear-gradient(bottom left, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+  background: -o-linear-gradient(bottom left, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(to top right, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+  border: 2px inset #484d4e;
+}
+
+.logo p {
+  font-family: Impact;
+  color: #54637a;
+  margin-bottom: -20px;
+  text-align: center;
+  margin-top: 4px;
+
+}
+
+.screen {
+   height: 360px;
+   width: 290x;
+   border: 0px solid #ccd9de;
+   border-radius: 3px;
+   margin: auto;
+   margin-top: 25px;
+   margin-right: 6px;
+   margin-bottom: 40px;
+   margin-left: 6px;
+   display: block;
+   background: rgb(69,72,77);
+    background: -webkit-linear-gradient(bottom left, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+    background: -moz-linear-gradient(bottom left, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(bottom left, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to top right, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+
+}
+
+.front_cam {
+   width: 10px;
+   height: 10px;
+   background: #171e24;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   margin: auto;
+   margin-bottom: 5px;
+   margin-left: 210px;
+   box-shadow: inset -2px -2px 2px 1px #7f8184;
+}
+
+.notification_lights {
+   width: 6px;
+   height: 6px;
+   background: #171e24;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+   position: relative;
+   margin: auto;
+   margin-left: 60px;
+}
+
+.notification_lights2 {
+   width: 6px;
+   height: 6px;
+   background: #171e24;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+   position: relative;
+   margin: auto;
+   margin-left: 67px;
+   margin-top: -6px;
+}
+
+.but {
+  cursor: pointer;
+   height: 15px;
+   width: 60px;
+   border: 0.06cm solid #6d747b;
+   border-radius: 30px;
+   margin: auto;
+   margin-bottom: 4px;
+   margin-top: -30px;
+   background: rgb(210,223,237);
+   background: -webkit-linear-gradient(bottom   left, rgba(210,223,237,1) 0%, rgba(200,215,235,1) 26%, rgba(190,208,234,1) 51%, rgba(166,192,227,1) 51%, rgba(175,199,232,1) 62%, rgba(186,208,239,1) 75%, rgba(153,181,219,1) 88%, rgba(121,155,200,1) 100%);
+  background: -moz-linear-gradient(bottom left, rgba(210,223,237,1) 0%, rgba(200,215,235,1) 26%, rgba(190,208,234,1) 51%, rgba(166,192,227,1) 51%, rgba(175,199,232,1) 62%, rgba(186,208,239,1) 75%, rgba(153,181,219,1) 88%, rgba(121,155,200,1) 100%);
+  background: -o-linear-gradient(bottom left, rgba(210,223,237,1) 0%, rgba(200,215,235,1) 26%, rgba(190,208,234,1) 51%, rgba(166,192,227,1) 51%, rgba(175,199,232,1) 62%, rgba(186,208,239,1) 75%, rgba(153,181,219,1) 88%, rgba(121,155,200,1) 100%);
+  background: linear-gradient(to top right, rgba(210,223,237,1) 0%, rgba(200,215,235,1) 26%, rgba(190,208,234,1) 51%, rgba(166,192,227,1) 51%, rgba(175,199,232,1) 62%, rgba(186,208,239,1) 75%, rgba(153,181,219,1) 88%, rgba(121,155,200,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=1 );
+}
+
+.but:active {
+  border-color: #aaa6a6;
+  box-shadow: inset 1px 1px 0px #000;
+}
+
+
+.footer {
+ margin-top: 30px
+}
+.footer #credit {
+  text-align: center;
+  font: 16px Segoe UI;
+  color: #e6ecf2;
+  padding: 1px;
+  margin: 18px 500px;
+  display: inline - block;
+}
+
+.footer #credit a {
+  text-decoration: none;
+  color: #e6ecf2;
+}
+
+.footer #credit span {
+  font: 20px mistral;
+  color: #e6ecf2;
+}
