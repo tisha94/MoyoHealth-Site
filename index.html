@@ -6,16 +6,21 @@
     <!--- basic page needs
     ================================================== -->
   <meta charset="utf-8">
- 	<title>Moyo Health</title>
+ 	<title>MOYO Health</title>
  	<meta name="description" content="Health App">
- 	<meta name="author" content="Katiana Stephens">
+ 	<meta name="author" content="Tisha Sutherland">
 
     <!-- mobile specific metas
     ================================================== -->
  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
 
   <!-- CSS
    ================================================== -->
+   <link href="main.css" rel="stylesheet" media="all and (max-width: 1024px)">
    <link rel="stylesheet" href="css/base.css">
    <link rel="stylesheet" href="css/main.css">
    <link rel="stylesheet" href="css/vendor.css">
@@ -36,29 +41,29 @@
   ================================================== -->
  <header>
 
-   <title>Moyo</title>
+   <title>MOYO</title>
 
 
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
    </head>
 
-   <body data-spy="scroll" data-target="#navbar" data-offset="100">
+    <body data-spy="scroll" data-target="#navbar" data-offset="100">
 
    <nav class="navbar navbar-light bg-faded navbar-fixed-top" id="navbar">
      <a class="navbar-brand" href="#">MOYO</a>
       <ul class="nav navbar-nav">
          <li class="nav-item">
-           <a class="nav-link" href="#index.html">Home <span class="sr-only">(current)</span></a>
+           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
            </li>
            <li class="nav-item">
            <a class="nav-link" href="team.html">Team</a>
            </li>
-           <li class="nav-item">
+            <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
            </li>
            <li class="nav-item">
-            <a class="nav-link" href="#Info">Info</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
              </li>
             <!-- <li class="nav-item">
              <a class="nav-link" href="#Info">Info</a>
@@ -72,51 +77,26 @@
    </nav>
 
 
-<!-- ==================================================================================================
-                                      Survey Button
-================================================================================================== -->
 
 <div class="jumbotron" id="jumbotron">
-<h1 class="display-3">Moyo Health App!</h1>
+<h1 class="display-3">Welcome to the MOYO Health Network!</h1>
 <hr class="m-y-2">
-<p class="lead">Where innovation meets health equity</p>
-<!-- <p>Want to know more? Join our mailing list</p> -->
-
-<!-- <form class="form-inline">
-<div class="form-group">
- <label class="sr-only" for="email">Email address</label>
- <div class="input-group">
-   <div class="input-group-addon">@</div>
-   <input type="email" class="form-control" id="email" placeholder="Your email">
-</div>
-</div> -->
-<!-- </form> -->
+<p class="lead"><b><i>"MOYO" Swahili for "heart"</i>, and we have a heart for the community.
+We are committed to everyone thriving with a healthy heart, and we mean EVERYONE!<br></p>
+ 
+<p class="lead">Our MOYO team includes creators from the Morehouse School of Medicine, Emory University, Georgia Institute of Technology and the Community. <br>Our first project, the MOYO Health App, is being piloted now.  Join us! Click on one the images below to find out more.</br> </b></p>
 
 
-<p  align="center"><a href="https://redcap.msm.edu/redcap/surveys/?s=W47PP4L9DW" target="_blank">
-<button class="button" style="vertical-align:middle" ><span>Join the Study </span></button></a>
 
-<!-- ==================================================================================================
-                                        END Survey Button
-================================================================================================== -->
-
-
-<!-- <h3>Connect with us</h3>
-  <div>
-    <a href="https://twitter.com/MoyoHealth" target="_blank"><img title="Twitter" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/twitter-48.png" alt="Twitter" width="35" height="35" /></a>
-    <a href="https://www.facebook.com/MorehouseSchoolofMedicine"  target="_blank"><img title="Facebook" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/facebook-48.png" alt="Facebook" width="35" height="35" /></a>
-    <a href="mailto: dainpenman@gmail.com"><img title="Email" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/mail-48.png" alt="Email" width="35" height="35" /></a>
-    <a href="https://www.instagram.com/moyohealth_/"  target="_blank"><img title="Instagram" src="https://cdn3.iconfinder.com/data/icons/social-circle/512/social_6-48.png" alt="Instagram" width="35" height="35" /></a>
-  </div> -->
 </div>
 
 
 <!-- ==================================================================================================
-                                        END jumbotron
+                                        Jumbotron
 ================================================================================================== -->
 
 
-   <div class="container">
+   <div class="container-fluid">
        <div class="row" id="appSummary">
          <div class="card-deck-wrapper" id="about">
            <!-- <center><h1>Reasons why this app is so awesome !</h1>
@@ -128,7 +108,7 @@
    <!-- <div class="card-deck-wrapper" id="about"> -->
      <div class="card-deck">
        <div class="card">
-         <img class="card-img-top" src="../MLanding-master/webPics/heart1.jpg" alt="">
+         <a href="experience.html"><img class="card-img-top" src="https://i.ytimg.com/vi/T1JSbJ9S7-c/hqdefault.jpg" target="_blank"></a>
          <div class="card-block">
            <h4 class="card-title">Experience</h4>
            <p class="card-text"> Opportunity to be a part of an innovative project that may lead to decreased heart disease rates. Some participants may be selected to learn coding for mobile app design.</p>
@@ -136,7 +116,7 @@
          </div>
        </div>
        <div class="card">
-         <img class="card-img-top"   src="../MLanding-master/webPics/eart-brain-150112.PNG" alt="">
+         <a  href="features.html"><img class="card-img-top" src="http://www.mobihealthnews.com/sites/default/files/wp-content/uploads/2014/03/PhoneOximeter.jpg" target="_blank"></a>
          <div class="card-block">
            <h4 class="card-title">Features</h4>
            <p class="card-text">mHealth and IoT technologies will be used to identify any changes in heart health-related behaviors, including physical activity, sleep quality, food choices and mental/emotional health .</p>
@@ -144,15 +124,15 @@
          </div>
        </div>
        <div class="card">
-         <img class="card-img-top" src="http://www.menshealth.com/sites/menshealth.com/files/heart-health.jpg" alt="">
+        <a href="Innovations.html"><img class="card-img-top" src="https://health.mil/~/media/Images/MHS/Photos/Protect%20Your%20Vision.ashx" target="_blank"></a>
          <div class="card-block">
            <h4 class="card-title">Innovations</h4>
-           <p class="card-text">We aim to reduce the risk of heart disease by empowering young adults to embrace behaviors that can improve hearth health through creative, digital health strategies (Mobile Health (mHealth) technologies). </p>
+           <p class="card-text">We aim to reduce the risk of heart disease by empowering young adults to embrace behaviors that can improve heart health through creative, digital health strategies (Mobile Health (mHealth) technologies). </p>
            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
          </div>
        </div>
        <div class="card">
-         <img class="card-img-top" src="http://www.healthywomen.org/sites/default/files/exercise-and-heart-health.jpg"  alt="">
+         <a href="HealthEquity.html"><img class="card-img-top" src="https://i.vimeocdn.com/video/505415782_1280x720.jpg" target="_blank" href="HealthEquity.html"></a>
          <div class="card-block">
            <h4 class="card-title"> Health Equity</h4>
            <p class="card-text">Since cell phones are used equally among Americans, the cell phone-based
@@ -160,72 +140,52 @@
            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
          </div>
        </div>
+       <div class="card">
+         <a href="GetInvolved.html"><img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/10/16/14/34/heart-1745300_960_720.jpg" target="_blank"></a>
+         <div class="card-block">ience.html
+           <h4 class="card-title">Get Involved</h4>
+           <p class="card-text">Ways to Get Involved coming soon</p>          
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
      </div>
-   </div>
+   </div> 
    </div> <!-- end cards container -->
+
+<hr>
+<br><br>
 
    <!-- ==================================================================================================
                                            END jumbotron
    ================================================================================================== -->
 
-
-
-
-<!-- <div class="jumbotron" id="jumbotron">
-  <div class="Team" id="Team">
-     <div class="row">
-         <h2>About Moyo Health App </h2>
-         <p class="lead"><i>"MOYO" Swahili for Heart</i></p>
-         <p class="lead">
-           <h4>Using P50 funding and funding from the Cardiovascular Chair, Dr. Taylor has initiated an electronic cohort
-                      to develop new technology and mechanisms for capturing data from patients in real-time. Specifically,
-                      this cohort seeks to take advantage of wearables, cellphones, and the internet to enroll a greater number of
-                      participants and gather greater amounts of data, outside of the clinical setting. In doing so, we can elucidate
-                      trends and develop a deeply textured picture of health and human lives. With Dr. Taylor at the forefront,
-                      MSM will become a leader in terms of developing access to tools for researchers, while ensuring that said
-                      tools are “acceptable” (ie. user-friendly, sticky, and exciting) for study target groups.</h4></p>
-                      <img class="img-responsive featurette-image img-rounded " width="704" height="606"  src="../MLanding-master/webPics/Ecohort.jpg" margin:"10px" align="center">
-
-     </div>
- </div>   </div> -->
- <!-- ==================================================================================================
-                                         END jumbotron
- ================================================================================================== -->
-<br><br><br>
-<hr>
->
-
-<!-- ==================================================================================================
-                                      Twitter Widget
-================================================================================================== -->
-<!-- <div class="container">
- <div class="Info" id="Info">
-   <div class="row" id="appSummary"> -->
+<div class="Info" id="Info">
+   <div class="row" id="appSummary">
        <center><h1>About Moyo Health App </h1> </center><br><br><br>
 
       <div class="container">
        <div class="row no-gutters">
          <div class="col-12 col-sm-6 col-md-8">  <p class="lead"><b>
-                CVRI launched the electrontic cohort in collaboration with Emory University and Georgia Tech, and the
-                program is currently piloting now, with a goal for a full-fledged study in Spring 2017.
+                 The Cardiovascular Research Institute of Morehouse School of Medicine has initiated an electronic cohort in collaboration with Emory University and Georgia Tech, and the
+                program is currently piloting now.
                 The program has another unique element, which brings job training, work ethics,
-                and other critical skills to young people ages 18-25 who have a high school diploma but no undergraduate degree. This pipeline program is being
-                conducted in partnership with local organizations to recruit urban youth in Atlanta. The first five graduates are currently interning in this program, and
-                after the conclusion will enter a 1-year internship working for the program to develop apps. The Iron Yard
-                will provide students with the opportunity to explore new possibilities for securing their future.<i>"MOYO" Swahili for Heart.</i></p></b></p>
+                and other critical skills to young people ages 18-29 who have a high school diploma but no undergraduate degree. This pipeline program is being
+                conducted in partnership with Tech Square Labs. The first four graduates are currently interning in this program.</p></b></p>
                  <center>
-                   <img class="img-responsive" style='width:100%;' border="0" alt="Null"  src="../MLanding-master/webPics/CVRI1.png" margin:"10px" align="center">
-                <img class="img-responsive" style='width:100%;' border="0" alt="Null"  src="../MLanding-master/webPics/Emory-Univ.png" margin:"10px" align="center">
-                <!-- <img class="img-responsive featurette-image img-rounded " width="604" height="236"  src="../MLanding-master/webPics/CVRI1.png" margin:"10px" align="center"> -->
-                <img class="img-responsive " style='width:100%;' border="0" alt="Null"  src="../MLanding-master/webPics/gt-logo-footer-retina.png" margin:"10px" align="center">
-              </center></div>
+                  <img class="img-responsive" style='width:100%;' border="0" alt="Null"  src="CVRI1.png" margin:"10px" align="center">
+
+                <img class="img-responsive" style='width:100%;' border="0" alt="Null"  src="Emory-Univ.png" margin:"10px" align="center">
+
+                <img class="img-responsive" style='width:100%;' border="0" alt="Null"  src="gt-logo-footer-retina.png" margin:"10px" align="center"></center></div>
+
+
+ 
+
 
   <!-- ==================================================================================================
                                     Twitter Widget
   ================================================================================================== -->
          <div class="col-6 col-md-4">
                <div align="center" class="container" id="content">
-                 <a class="twitter-timeline"  data-width="450" data-height="1100" data-theme="light" data-dnt="true" href="https://twitter.com/MoyoHealth">Tweets by @MoyoHealth</a>
+                 <a class="twitter-timeline"  data-width="450" data-height="1105" data-theme="light" data-dnt="true" href="https://twitter.com/MOYOHealth">Tweets by @MOYOHealth</a>
            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -276,6 +236,18 @@
    </div>
 </div>
 
+<hr>
+<!-- ==================================================================================================
+                                      Survey Button
+================================================================================================== -->
+
+<p  align="center"><a href="https://redcap.msm.edu/redcap/surveys/?s=W47PP4L9DW" target="_blank">
+<button class="button" style="vertical-align:middle"><span>Join the Network</span></button></a>
+
+<!-- ==================================================================================================
+                                        END Survey Button
+================================================================================================== -->
+
 
 <!-- <div class="container">
      <div class="card-deck-wrapper" id="about">
@@ -296,7 +268,7 @@
      <div class="jumbotron" id="jumbotron">
        <div class="Download" id="Download">
           <div class="row">
-              <h2>The Moyo Health App will SOON be available for Download!</h2>
+              <h2>The MOYO Health App will SOON be available for Android users to Download!</h2>
               <p class="lead">Really, why wouldn't you download this app?</p>
               <p>
                 <!-- <a href="#"><img src="http://jeffbredenkamp.neocities.org/app-store-badge.png" class="appstorebutton btn" alt="Download on Apple Store"></a> -->
@@ -305,16 +277,16 @@
 
               <h3>Connect with us</h3>
                 <div>
-                  <a href="https://twitter.com/MoyoHealth" target="_blank"><img title="Twitter" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/twitter-48.png" alt="Twitter" width="35" height="35" /></a>
+                  <a href="https://twitter.com/MOYOHealth" target="_blank"><img title="Twitter" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/twitter-48.png" alt="Twitter" width="35" height="35" /></a>
                   <a href="https://www.facebook.com/MorehouseSchoolofMedicine"  target="_blank"><img title="Facebook" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/facebook-48.png" alt="Facebook" width="35" height="35" /></a>
                   <a href="mailto: dainpenman@gmail.com"><img title="Email" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/mail-48.png" alt="Email" width="35" height="35" /></a>
-                  <a href="https://www.instagram.com/moyohealth_/"  target="_blank"><img title="Instagram" src="https://cdn3.iconfinder.com/data/icons/social-circle/512/social_6-48.png" alt="Instagram" width="35" height="35" /></a>
+                  <a href="https://www.instagram.com/MOYOhealth_/"  target="_blank"><img title="Instagram" src="https://cdn3.iconfinder.com/data/icons/social-circle/512/social_6-48.png" alt="Instagram" width="35" height="35" /></a>
                 </div>
           </div>
       </div>
 
 <!-- ==================================================================================================
-                                        END jumbotron
+                                        END footer
   ================================================================================================== -->
 
 </body>
